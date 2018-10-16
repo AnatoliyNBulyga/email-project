@@ -21,7 +21,7 @@ gulp.task('styles', function () {
 });
 
 //CONVERTE INKY
-gulp.task('inky', function() {
+gulp.task('inky', ['styles'], function() {
   return gulp.src('./templates/**/*.html')
     .pipe(inlineSource())
     .pipe(inky())
@@ -40,7 +40,7 @@ gulp.task('inline', function () {
 
 
 //WATCH
-gulp.task('default', ['server'], function() {
+gulp.task('default', ['server', 'inky'], function() {
     gulp.watch('./scss/**/*.scss',['styles']);
     gulp.watch('./templates/**/*.html',['inky']);
 });

@@ -79,7 +79,7 @@ table.container {
   background: #128afb;
   width: 600px;
   margin: 0 auto;
-  Margin: 0 auto;
+  margin: 0 auto;
   text-align: inherit; }
 
 table.row {
@@ -910,7 +910,8 @@ table.button {
     text-align: left;
     color: #fefefe;
     background: #128afb;
-    border: 2px solid #128afb; }
+    box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.33);
+    border-radius: 6px; }
     table.button table td.radius {
       border-radius: 6px; }
     table.button table td.rounded {
@@ -950,7 +951,7 @@ table.button.tiny table a {
 
 table.button.small table td,
 table.button.small table a {
-  padding: 5px 10px 5px 10px;
+  padding: 4px 12px 4px 12px;
   font-size: 12px; }
 
 table.button.large table a {
@@ -973,13 +974,13 @@ table.expanded {
 table.button:hover table td,
 table.button:visited table td,
 table.button:active table td {
-  background: #0470d6;
+  background: #0885fb;
   color: #fefefe; }
 
 table.button:hover table a,
 table.button:visited table a,
 table.button:active table a {
-  border: 0px solid #0470d6; }
+  border: 0px solid #0885fb; }
 
 table.button.secondary table td {
   background: #cfe8ff;
@@ -1416,7 +1417,7 @@ th.large-9.last {
   border-bottom-right-radius: 6px; }
 
 .container.row-img-bg {
-  background: #128afb url(http://www.eltima.bb.office.eltima.com/submit/promo/37891/img/img@2x.png);
+  background: #128afb url(https://www.eltima.com/submit/promo/37891/img/img@2x.png);
   -webkit-background-size: 600px 420px;
   -o-background-size: 600px 420px;
   background-size: 600px 420px;
@@ -1430,7 +1431,7 @@ th.large-9.last {
 .email-border {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
 
-.email-badge {
+table.email-badge table td {
   -webkit-border-radius: 16px;
   border-radius: 16px;
   background-color: #ffcd39;
