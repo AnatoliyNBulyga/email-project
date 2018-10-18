@@ -55,7 +55,6 @@ table {
   border-collapse: collapse; }
 
 td {
-  word-wrap: break-word;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
@@ -1382,6 +1381,12 @@ body.outlook p {
   padding-top: 16px;
   padding-bottom: 16px; }
 
+tr {
+  color: white; }
+
+a:visited {
+  color: white; }
+
 a {
   display: inline-block; }
 
@@ -1398,11 +1403,13 @@ th.large-9.last {
 
 .logo {
   width: 122px;
-  height: 30px; }
+  height: 30px;
+  color: white; }
 
 .open-browser {
   width: 26px;
-  height: 26px; }
+  height: 26px;
+  color: white; }
 
 .border-radius-top {
   -webkit-border-top-left-radius: 6px;

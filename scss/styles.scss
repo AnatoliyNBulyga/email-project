@@ -1,5 +1,10 @@
 @import "foundation";
-
+tr {
+	color: white;
+}
+a:visited {
+	color: white;
+}
 a {
 	display: inline-block;
 }
@@ -19,10 +24,12 @@ th.large-9.last {
 .logo {
 	width: 122px;
 	height: 30px;
+	color: white;
 }
 .open-browser {
 	width: 26px;
 	height: 26px;
+	color: white;
 }
 
 .border-radius-top {
