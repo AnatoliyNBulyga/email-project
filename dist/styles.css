@@ -55,9 +55,9 @@ table {
   border-collapse: collapse; }
 
 td {
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
   border-collapse: collapse !important; }
 
 table, tr, td {
@@ -1384,6 +1384,9 @@ body.outlook p {
 tr {
   color: white; }
 
+body {
+  hyphens: none; }
+
 a:visited {
   color: white; }
 
@@ -1397,6 +1400,7 @@ th.large-9.last {
   padding-right: 66px; }
 
 .basic-text {
+  display: block;
   font-size: 17px;
   line-height: 1.41;
   margin-bottom: 10px; }

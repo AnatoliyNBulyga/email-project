@@ -2,6 +2,9 @@
 tr {
 	color: white;
 }
+body {
+	hyphens: none
+}
 a:visited {
 	color: white;
 }
@@ -16,6 +19,7 @@ th.large-9.last {
 }
 
 .basic-text {
+	display: block;
 	font-size: 17px;
 	line-height: 1.41;
 	margin-bottom: 10px;
